@@ -25,7 +25,6 @@
     flex-direction: column;
     width: 45%;
     height: auto;
-    color: white;
 }
 
 .homei {
@@ -41,6 +40,7 @@
 .hello {
     font-weight: bold;
     font-size: 40px;
+    color: white;
 }
 
 .name {
@@ -51,6 +51,7 @@
 }
 
 .mern {
+    color: white;
     font-size: 28px;
     font-weight: 500;
 }
