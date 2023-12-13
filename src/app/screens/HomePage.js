@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
-import hs from '../styles/HomeStyle.module.css';
 import Image from "next/image";
+import hs from '../Styles/Hstyle.module.css'
 import { Github, Download } from 'lucide-react';
 
 const HomePage = () => {
