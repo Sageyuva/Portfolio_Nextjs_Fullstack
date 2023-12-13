@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.homemain {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.homet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+}
+
+.homei {
+    width: 45%;
+    height: auto;
+}
+
+.imgg {
+    width: 95%;
+    height: 300px;
+}
+
+.hello {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.name {
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#3512f8, #f447c6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mern {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social1 {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: green;
+    font-weight: bolder;
+    gap: 10px;
+    background-color: black;
+    border-radius: 1.3rem;
+    border: 2px solid green;
+    transition: 0.7s ease;
+}
+
+.social1d {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: blue;
+    font-weight: bolder;
+    gap: 10px;
+    background-color: black;
+    border-radius: 1.3rem;
+    border: 2px solid blue;
+    transition: 0.7s ease;
+}
+
+.social1:hover {
+    color: white;
+    background-color: green;
+}
+
+.social1d:hover {
+    color: white;
+    background-color: blue;
+}
+
+@media (max-width: 600px) {
+    .homet {
+        width: 95%;
+        height: auto;
+    }
+    .homei {
+        width: 95%;
+        height: auto;
+    }
+}
